@@ -1,0 +1,53 @@
+2025-06-25 17:20:57,698 [INFO] processing file: test.pdf
+2025-06-25 17:20:57,702 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:20:57,702 [INFO] Success: test.pdf
+2025-06-25 17:22:32,511 [INFO] processing file: test.pdf
+2025-06-25 17:22:32,511 [INFO] Uploading file: test.pdf
+2025-06-25 17:22:32,514 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:23:19,580 [INFO] processing file: test.pdf
+2025-06-25 17:23:19,581 [INFO] Uploading file: test.pdf
+2025-06-25 17:23:19,583 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:23:19,583 [ERROR] Failure uploading: test.pdf: Session.request() got an unexpected keyword argument 'file'
+2025-06-25 17:23:53,858 [INFO] Uploading file: test.pdf
+2025-06-25 17:23:53,860 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:23:53,860 [ERROR] Failure uploading: test.pdf: Session.request() got an unexpected keyword argument 'file'
+2025-06-25 17:24:42,275 [INFO] Uploading file: test.pdf
+2025-06-25 17:24:42,277 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:24:42,277 [ERROR] Failure uploading: test.pdf: Session.request() got an unexpected keyword argument 'file'
+2025-06-25 17:26:11,275 [INFO] Uploading file: test.pdf
+2025-06-25 17:26:11,280 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:26:44,883 [INFO] Uploading file: test.pdf
+2025-06-25 17:26:44,885 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:27:09,708 [INFO] Uploading file: test.pdf
+2025-06-25 17:27:09,711 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:27:40,250 [INFO] Uploading file: test.pdf
+2025-06-25 17:27:40,253 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:27:40,253 [ERROR] Failure uploading: test.pdf: Session.request() got an unexpected keyword argument 'file'
+2025-06-25 17:28:04,836 [INFO] Uploading file: test.pdf
+2025-06-25 17:28:04,838 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:28:04,839 [ERROR] Failure uploading: test.pdf:
+2025-06-25 17:28:55,458 [INFO] Uploading file: test.pdf
+2025-06-25 17:28:55,461 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:29:31,941 [INFO] Uploading file: test.pdf
+2025-06-25 17:29:31,943 [INFO] Making a POST request: {'file': ('test.pdf', <_io.BufferedReader name='uploads/test.pdf'>, 'application/pdf')}
+2025-06-25 17:29:49,189 [INFO] Uploading file: test.pdf
+2025-06-25 17:29:49,192 [INFO] Making a POST request: test.pdf
+2025-06-25 17:30:14,049 [INFO] Uploading file: test.pdf
+2025-06-25 17:30:14,052 [INFO] Making a POST request: test.pdf
+2025-06-25 17:31:02,395 [INFO] Uploading file: test.pdf
+2025-06-25 17:31:02,399 [INFO] Making a POST request: test.pdf
+2025-06-25 17:31:48,970 [INFO] Uploading file: test.pdf
+2025-06-25 17:31:48,973 [INFO] Making a POST request: test.pdf
+2025-06-25 17:32:04,825 [INFO] Uploading file: test.pdf
+2025-06-25 17:32:04,828 [INFO] Making a POST request: test.pdf
+2025-06-25 17:32:05,110 [ERROR] Failed to upload test.pdf
+2025-06-25 17:32:05,110 [INFO] <InvalidTokenException><error>invalid_token</error><error_description>dd</error_description></InvalidTokenException>
+2025-06-25 17:32:18,030 [INFO] Uploading file: test.pdf
+2025-06-25 17:32:18,033 [INFO] Making a POST request: test.pdf
+2025-06-25 17:32:18,350 [ERROR] Failed to upload test.pdf 
+Status: 401
+2025-06-25 17:32:18,350 [INFO] <InvalidTokenException><error>invalid_token</error><error_description>dd</error_description></InvalidTokenException>
+2025-06-25 17:33:13,073 [INFO] Uploading file: test.pdf
+2025-06-25 17:33:13,077 [INFO] Making a POST request: test.pdf
+2025-06-25 17:33:13,407 [ERROR] Failed to upload test.pdf
+2025-06-25 17:33:13,407 [ERROR] <InvalidTokenException><error>invalid_token</error><error_description>dd</error_description></InvalidTokenException>

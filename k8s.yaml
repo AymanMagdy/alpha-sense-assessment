@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-deployment
+  namespace: test
+  labels: 
+    app: myapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+        - name: myapp-container
+          image: nginx:latest
+          ports:
+            - containerPort: 5000
+          env:
+            - name: CONFIG_PATH
+              value: "/etc/myapp/config.yaml"
+          volumeMounts:
+            - name: config-volume
+              mountPath: "/etc/myapp/" # Mount point for config files
+      volumes:
+        - name: config-volume
+          configMap:
+            name: myapp-config # Reference to ConfigMap (expected to have config.yaml)
+
